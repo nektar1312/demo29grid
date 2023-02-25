@@ -1,0 +1,15 @@
+.wraper{
+margin: 100px;
+height: 300px;
+width: 50vw;
+border: solid 5px #e23232;
+display: grid;
+grid-template: 1fr 1fr / 1fr 1fr minmax(100px,200px) 1fr 1fr; 
+
+}
+.item{
+    border: solid 1px #352e2e;
+    text-align: center;
+    
+    
+}
